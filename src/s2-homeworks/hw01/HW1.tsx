@@ -17,9 +17,21 @@ import avatar from './avatar.png'
 export type MessageType = {
     id:number;
     user:UserType;
-    message:MessageType;
-
+    message:MessageContentType;
 }
+
+export type UserType = {
+    avatar: string; 
+    name: string; 
+};
+
+
+export type MessageContentType = {
+    text: string; 
+    time: string; 
+};
+
+
 
 // структуру объекта не менять
 export const message0: MessageType = {
