@@ -8,7 +8,7 @@ export type MessagePropsType = {
 }
 
 // нужно отобразить приходящие данные
-const Message = (props: MessagePropsType) => {
+export const Message = (props: MessagePropsType) => {
     return (
         <div id={'hw1-message-' + props.message.id} className={s.message}>
             <div className={s.imageAndText}>
@@ -37,3 +37,4 @@ const Message = (props: MessagePropsType) => {
         </div>
     )
 }
+export default Message
