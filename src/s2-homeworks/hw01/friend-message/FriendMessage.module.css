@@ -3,7 +3,10 @@
 }
 
 .friendImageAndText {
-
+    width: 48px;
+    height: 48px;
+    top: 204px;
+    left: 1162px;
 }
 
 .friendImageAndText img {
